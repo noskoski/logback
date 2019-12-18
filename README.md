@@ -1,5 +1,10 @@
 # logback
 
+* needs https://github.com/RobinNil/file_read_backwards
+   pip install file_read_backwards
+* needs python 2.7   
+
+
 Prints lines from backward in the corresponding period 
 
 usage: logback.py [options] /path/logfile.log
