@@ -19,11 +19,10 @@ from datetime import date, timedelta, datetime
 
 def testdate(line=None):
 
-    x=(line.split(' ')[:3])
+    x=(line.split(' ')[:4])
     now = datetime.now() #no Year on log, using actual Year
     old_str_dttm = str(now.year)+' '+ ' '.join(x)
     fmt = '%Y %b %d %H:%M:%S'
-
     try:
         curr = datetime.strptime(old_str_dttm, fmt) #try convert, if not, say good bye
     except:
