@@ -1,9 +1,9 @@
-# logback
+# logback ( fast backwards log parser, date based )
 
 * needs https://github.com/RobinNil/file_read_backwards
-   pip install file_read_backwards
 * needs python 2.7   
 
+pip install file_read_backwards
 
 Prints lines from backward in the corresponding period 
 
