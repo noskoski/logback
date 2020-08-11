@@ -19,7 +19,7 @@ from datetime import date, timedelta, datetime
 
 def testdate(line=None):
 
-    x=(line.split(' ')[:4])
+    x=(line.split(' ')[:3])
     now = datetime.now() #no Year on log, using actual Year
     old_str_dttm = str(now.year)+' '+ ' '.join(x)
     fmt = '%Y %b %d %H:%M:%S'
