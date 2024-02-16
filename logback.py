@@ -1,14 +1,14 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
 """LogBack prints logs in backwards"""
 
 __author__      = 'Leandro Abelin Noskoski'
 __site__        = 'www.alternativalinux.net'
-__projectpage__ = 'https://github.com/logback/collor'
+__projectpage__ = 'https://github.com/noskoski/logback'
 __copyright__   = 'Copyright 2019, Alternativa Linux'
 __license__     = 'GPL'
-__version__     = '1.1'
+__version__     = '2.0'
 __maintainer__  = 'Leandro Abelin Noskoski'
 __email__       = 'leandro@alternativalinux.net'
 __status__      = 'Production'
